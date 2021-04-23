@@ -371,7 +371,7 @@ Item {
                 }
                 CusButton_Blue {
                     width: 120
-                    text: qsTr("last page") + trans.transString
+                    text: qsTr("Last Page") + trans.transString
                     onClicked:  {
                         mainItem.lastpage()
 //                        changePage(false)
@@ -380,7 +380,7 @@ Item {
                 }
                 CusButton_Blue {
                     width: 120
-                    text: qsTr("next page") + trans.transString
+                    text: qsTr("Next Page") + trans.transString
                     onClicked:  {
                         mainItem.nextpage()
 //                        changePage(true)
