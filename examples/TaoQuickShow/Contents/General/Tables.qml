@@ -63,7 +63,7 @@ Item {
             property real avalidWidth
             updateWidthList: function() {
                 avalidWidth = width - CusTableConstant.column0Width
-                widthList = [CusTableConstant.column0Width, avalidWidth * 0.2,avalidWidth * 0.2,avalidWidth * 0.2, avalidWidth * 0.2,avalidWidth * 0.2]
+                widthList = [CusTableConstant.column0Width, avalidWidth * 0.33,avalidWidth * 0.33,avalidWidth * 0.33]
             }
         }
 
