@@ -19,6 +19,9 @@ public slots:
     void addOne();
     void addMulti(int count);
 
+    void genTxtItems();
+    void saveTxtItems();
+
     void insertBeforeSelected();
     void insertBeforeRow(int row);
 
